@@ -1,3 +1,4 @@
+'use client'
 import axios from 'axios';
 import ComponentsDashboardSales from '@/components/dashboard/components-dashboard-sales';
 
