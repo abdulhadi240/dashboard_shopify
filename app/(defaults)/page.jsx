@@ -6,7 +6,7 @@ const Sales = async () => {
     console.log(response.data.orders);
     return (
       <div>
-        <ComponentsDashboardSales data={response.data.orders} />
+        <ComponentsDashboardSales />
       </div>
     );
 };

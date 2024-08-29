@@ -21,7 +21,7 @@ import ReactApexChart from 'react-apexcharts';
 import { useSelector } from 'react-redux';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 
-const ComponentsDashboardSales = ({data}) => {
+const ComponentsDashboardSales = () => {
     const isDark = useSelector((state: IRootState) => state.themeConfig.theme === 'dark' || state.themeConfig.isDarkMode);
     const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) === 'rtl';
 
