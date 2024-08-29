@@ -1,4 +1,3 @@
-'use client'
 import axios from 'axios';
 import ComponentsDashboardSales from '@/components/dashboard/components-dashboard-sales';
 
@@ -7,7 +6,7 @@ const Sales = async () => {
     console.log(response.data.orders);
     return (
       <div>
-        <ComponentsDashboardSales />
+        <ComponentsDashboardSales data={response.data.orders}/>
       </div>
     );
 };
