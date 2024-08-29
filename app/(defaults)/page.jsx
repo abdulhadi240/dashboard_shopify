@@ -12,7 +12,7 @@ const Sales = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get("https://dashboard-shopify-backend2.onrender.com/orders");
-        setSalesData(response.data);
+        setSalesData(response);
         console.log(salesData);
         
         setLoading(false);
