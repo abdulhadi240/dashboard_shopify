@@ -440,7 +440,7 @@ const ComponentsDashboardSales = () => {
                                 </div>
                             </div>
                             <p className="text-lg dark:text-white-light/90">
-                                Total Profit <span className="ml-2 text-primary">$10,840</span>
+                                Total Sales <span className="ml-2 text-primary">$10,840</span>
                             </p>
                             <div className="relative">
                                 <div className="bg-white rounded-lg dark:bg-black">
@@ -457,7 +457,7 @@ const ComponentsDashboardSales = () => {
 
                         <div className="h-full panel">
                             <div className="flex items-center mb-5">
-                                <h5 className="text-lg font-semibold dark:text-white-light">Sales By Category</h5>
+                                <h5 className="text-lg font-semibold dark:text-white-light">Total Orders</h5>
                             </div>
                             <div>
                                 <div className="bg-white rounded-lg dark:bg-black">
